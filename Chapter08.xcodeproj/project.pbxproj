@@ -11,6 +11,10 @@
 		E4D95DA829EC8C96004659EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DA729EC8C96004659EC /* ContentView.swift */; };
 		E4D95DAA29EC8C98004659EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95DA929EC8C98004659EC /* Assets.xcassets */; };
 		E4D95DAD29EC8C98004659EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95DAC29EC8C98004659EC /* Preview Assets.xcassets */; };
+		E4D95DEE29ECCD17004659EC /* PickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DED29ECCD17004659EC /* PickerIntro.swift */; };
+		E4D95DF029ECD00F004659EC /* PickAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DEF29ECD00F004659EC /* PickAColor.swift */; };
+		E4D95DF229ECD1C5004659EC /* PickADate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DF129ECD1C5004659EC /* PickADate.swift */; };
+		E4D95DF529ECD90D004659EC /* PickARestrictedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DF429ECD90D004659EC /* PickARestrictedDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		E4D95DA729EC8C96004659EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4D95DA929EC8C98004659EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D95DAC29EC8C98004659EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4D95DED29ECCD17004659EC /* PickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntro.swift; sourceTree = "<group>"; };
+		E4D95DEF29ECD00F004659EC /* PickAColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAColor.swift; sourceTree = "<group>"; };
+		E4D95DF129ECD1C5004659EC /* PickADate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickADate.swift; sourceTree = "<group>"; };
+		E4D95DF329ECD3DB004659EC /* Swift_Ranges.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Ranges.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4D95DF429ECD90D004659EC /* PickARestrictedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickARestrictedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 		E4D95D9929EC8C95004659EC = {
 			isa = PBXGroup;
 			children = (
+				E4D95DF329ECD3DB004659EC /* Swift_Ranges.playground */,
 				E4D95DA429EC8C96004659EC /* Chapter08 */,
 				E4D95DA329EC8C96004659EC /* Products */,
 			);
@@ -55,6 +65,10 @@
 				E4D95DA729EC8C96004659EC /* ContentView.swift */,
 				E4D95DA929EC8C98004659EC /* Assets.xcassets */,
 				E4D95DAB29EC8C98004659EC /* Preview Content */,
+				E4D95DED29ECCD17004659EC /* PickerIntro.swift */,
+				E4D95DEF29ECD00F004659EC /* PickAColor.swift */,
+				E4D95DF129ECD1C5004659EC /* PickADate.swift */,
+				E4D95DF429ECD90D004659EC /* PickARestrictedDate.swift */,
 			);
 			path = Chapter08;
 			sourceTree = "<group>";
@@ -138,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D95DA829EC8C96004659EC /* ContentView.swift in Sources */,
+				E4D95DF529ECD90D004659EC /* PickARestrictedDate.swift in Sources */,
 				E4D95DA629EC8C96004659EC /* Chapter08App.swift in Sources */,
+				E4D95DF229ECD1C5004659EC /* PickADate.swift in Sources */,
+				E4D95DF029ECD00F004659EC /* PickAColor.swift in Sources */,
+				E4D95DEE29ECCD17004659EC /* PickerIntro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

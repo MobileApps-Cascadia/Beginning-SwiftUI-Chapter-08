@@ -9,11 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            PickerIntroView()
+                .tabItem {
+                    Image(systemName: "1.circle")
+                    Text("Basic Pickers")
+                }
+            PickAColorView()
+                .tabItem {
+                    Image(systemName: "2.circle")
+                    Text("Color Picker")
+                }
+            PickADateView()
+                .tabItem {
+                    Image(systemName: "3.circle")
+                    Text("Date Picker")
+                }
+            PickARestrictedDateView()
+                .tabItem {
+                    Image(systemName: "4.circle")
+                    Text("Restricted Date Picker")
+                }
         }
         .padding()
     }
@@ -24,3 +40,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
