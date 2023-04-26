@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBDA49529F88F8900F1D133 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDA49429F88F8200F1D133 /* Pickers.swift */; };
+		3FBDA49729F88F9800F1D133 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDA49629F88F9500F1D133 /* Settings.swift */; };
 		E4D95DA629EC8C96004659EC /* Chapter08App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DA529EC8C96004659EC /* Chapter08App.swift */; };
 		E4D95DA829EC8C96004659EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DA729EC8C96004659EC /* ContentView.swift */; };
 		E4D95DAA29EC8C98004659EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95DA929EC8C98004659EC /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBDA49429F88F8200F1D133 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		3FBDA49629F88F9500F1D133 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		E4D95DA229EC8C96004659EC /* Chapter08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D95DA529EC8C96004659EC /* Chapter08App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter08App.swift; sourceTree = "<group>"; };
 		E4D95DA729EC8C96004659EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		E4D95DA429EC8C96004659EC /* Chapter08 */ = {
 			isa = PBXGroup;
 			children = (
+				3FBDA49629F88F9500F1D133 /* Settings.swift */,
+				3FBDA49429F88F8200F1D133 /* Pickers.swift */,
 				E4D95DA529EC8C96004659EC /* Chapter08App.swift */,
 				E4D95DA729EC8C96004659EC /* ContentView.swift */,
 				E4D95DA929EC8C98004659EC /* Assets.xcassets */,
@@ -153,6 +159,8 @@
 			files = (
 				E4D95DA829EC8C96004659EC /* ContentView.swift in Sources */,
 				E4D95DF529ECD90D004659EC /* PickARestrictedDate.swift in Sources */,
+				3FBDA49729F88F9800F1D133 /* Settings.swift in Sources */,
+				3FBDA49529F88F8900F1D133 /* Pickers.swift in Sources */,
 				E4D95DA629EC8C96004659EC /* Chapter08App.swift in Sources */,
 				E4D95DF229ECD1C5004659EC /* PickADate.swift in Sources */,
 				E4D95DF029ECD00F004659EC /* PickAColor.swift in Sources */,

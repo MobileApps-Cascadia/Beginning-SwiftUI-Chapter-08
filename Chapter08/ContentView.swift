@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            PickerIntroView()
+            /*PickerIntroView()
                 .tabItem {
                     Image(systemName: "1.circle")
                     Text("Basic Pickers")
@@ -29,9 +29,20 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "4.circle")
                     Text("Restricted Date Picker")
+                }*/
+            Pickers()
+                .tabItem{
+                    Image(systemName: "rectangle.and.hand.point.up.left.filled")
+                    Text("Pickers")
+                }
+            Settings()
+                .tabItem{
+                    Image(systemName: "gearshape")
+                    Text("Settings")
                 }
         }
         .padding()
+        
     }
 }
 
