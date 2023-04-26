@@ -28,8 +28,14 @@ struct ContentView: View {
             PickARestrictedDateView()
                 .tabItem {
                     Image(systemName: "4.circle")
-                    Text("Restricted Date Picker")
+                    Text("Settings")
                 }
+            chap8()
+                .tabItem {
+                    Image(systemName: "5.circle")
+                    Text("Inclass work")
+                }
+                
         }
         .padding()
     }
